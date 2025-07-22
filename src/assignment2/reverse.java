@@ -19,13 +19,16 @@ public class reverse {
         int size=digit;
         int[] arrRev= new int[size];
         while(counter<=digit){
+
             for(int i=0; i<=(size-1); i++){
                 arrRev[i]=(num%10);
             }
+            counter++;
         }
-        System.out.println("The numbebr of digits = "+ digit);
-        for(int nums : arrRev){
-            System.out.print("The reversed number is : " + nums);
+        System.out.println("The number of digits = "+ digit);
+        for(int i=(size-1); i>=0; i--){
+
+            System.out.print("The reversed number is : " +arrRev[i]);
         }
     }
 }
