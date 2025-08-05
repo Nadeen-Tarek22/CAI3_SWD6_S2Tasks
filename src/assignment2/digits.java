@@ -15,3 +15,5 @@ public class digits {
         System.out.println("The numbebr of digits = "+ digits);
     }
 }
+//temp= num%10;
+//
